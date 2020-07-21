@@ -1,0 +1,88 @@
+advancements.stage0.root.title=Stone Age
+advancements.stage0.root.description=Welcome to the age of gathering!
+
+advancements.stage0.pick_rock.title=Progress: Just a Rock
+advancements.stage0.pick_rock.description=Pick up a Stone from the ground.
+
+advancements.stage0.knapping.title=Progress: Knapping
+advancements.stage0.knapping.description=Knap your first tool head by having 2 stones and right clicking the ground while in your hand. (Look at tool head recipes in JEI for how to knap them)
+
+advancements.stage0.stone_javelin.title=Side: Throwy Throwy
+advancements.stage0.stone_javelin.description=Create a javelin by grabbing a stick or bone with your [§2cursor§r], [§2holding shift§r] and clicking on a javelin head in your inventory.
+
+advancements.stage0.first_kill.title=Side: First Blood
+advancements.stage0.first_kill.description=Kill your first victim.
+
+advancements.stage0.first_meal.title=Side: First Meal
+advancements.stage0.first_meal.description=Cook meat in the Firepit.
+
+advancements.stage0.thirsty.title=Side: Water!
+advancements.stage0.thirsty.description=So thirsty need to drink water, [§2right click§r] in water to drink it!
+
+advancements.stage0.salty.title=Hidden: Salty
+advancements.stage0.salty.description=Drinking salt water is bad! It'll only make you more thirsty.
+
+advancements.stage0.firestarter.title=Side: A way to make fire
+advancements.stage0.firestarter.description=Create a firestarter by combining two sticks together by, grabbing a stick with your [§2cursor§r], [§2holding shift§r] and clicking on another stick.
+
+advancements.stage0.firepit.title=Side: Fire!
+advancements.stage0.firepit.description=Create a Firepit by throwing 1 log and 3 sticks on a block and then using the firestarter [§2hold right click§r] on the block with the log and sticks on.
+
+advancements.stage0.torch.title=Side: Olde Torch
+advancements.stage0.torch.description=By throwing sticks inside the pitkiln we can now make torches!
+
+advancements.stage0.stone_knife.title=Side: Stabby Stabby
+advancements.stage0.stone_knife.description=Create a knife by grabbing a stick or bone with your [§2cursor§r], [§2holding shift§r] and clicking on a knife head in your inventory.
+
+advancements.stage0.stone_shovel.title=Side: Diggy Diggy
+advancements.stage0.stone_shovel.description=Create a shovel by grabbing a stick or bone with your [§2cursor§r], [§2holding shift§r] and clicking on a shovel head in your inventory.
+
+advancements.stage0.stone_axe.title=Side: Choppy Choppy
+advancements.stage0.stone_axe.description=Create a Axe by grabbing a stick or bone with your [§2cursor§r], [§2holding shift§r] and clicking on a axe head in your inventory.
+
+advancements.stage0.get_straw.title=Side: Grasping at Straws
+advancements.stage0.get_straw.description=Break tallgrass with a knife to get straw!
+
+advancements.stage0.hot_spring.title=Hidden: Found hotspring!
+advancements.stage0.hot_spring.description=This water has rejuvenative properties to it, use it to heal after taking damage.
+
+advancements.stage0.logging.title=Side: Timberrr!
+advancements.stage0.logging.description=Use an axe to cut down a tree.
+
+advancements.stage0.pit_kiln.title=Progress: Pit Kiln
+advancements.stage0.pit_kiln.description=Used for firing pottery and melting your first metals. Place up to 4 items (Default Hotkey: V) into a 1x1 hole, then fill (right-click) with 8 straw and 8 logs and light it with a fire starter or drop a torch on top. Recipe is complete after the fire on top goes out.
+
+advancements.stage0.find_clay.title=Progress: The hunt for clay
+advancements.stage0.find_clay.description=After acquiring a shovel its now time to hunt for clay, certain flowers will grow ontop of clay so keep on the look out under flowers!
+
+advancements.stage0.clay_knapping.title=Progress: Clay Knapping
+advancements.stage0.clay_knapping.description=Knap your first clay pottery the same way you did with stones but with clay! (You need at least 5 clay to knap)
+
+advancements.stage0.pottery.title=Progress: Pottery
+advancements.stage0.pottery.description=Finally a way to store items and water, making a jug will allow us to store fresh water for drinking and vessels for storing items.
+
+advancements.stage0.gold_panning.title=Side: Gold Panning
+advancements.stage0.gold_panning.description=Pan for the good stuff!
+
+advancements.stage0.farming.title=Side: Farming
+advancements.stage0.farming.description=Farm
+
+advancements.stage0.make_quern.title=Progress: The Grind
+advancements.stage0.make_quern.description= Craft a Quern.
+
+advancements.stage0.baking.title=Side: Bread!
+advancements.stage0.baking.description=Bake Bread!
+
+advancements.stage0.copper_ore.title=Progress: Copper Get
+advancements.stage0.copper_ore.description=Get copper through finding surface samples on the ground or panning for it.
+
+advancements.stage0.copper_ingot.title=Progress: Copper Ingot
+advancements.stage0.copper_ingot.description=Place ore into a vessel each 100 units is worth 1 ingot then throw it into a pitkiln to melt down, make sure you have fired molds to empty it into!
+
+
+
+advancements.stage4.root.title=Bronze Age
+advancements.stage4.root.description=Age of ... Bronze
+
+advancements.stage5.root.title=Iron Age
+advancements.stage5.root.description=Age of ... Iron

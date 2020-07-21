@@ -1,0 +1,22 @@
+setTranslatedTitle("advancements.stage0.pit_kiln.title")
+
+setIcon(<tfc:pit_kiln>)
+
+setTranslatedDescription("advancements.stage0.pit_kiln.description")
+
+addParent("staging:stage0/get_straw")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("pit_kiln", "triumph:right_click_block")
+criteria.setBlock(<tfc:placed_item>)
+criteria.setItem(<tfc:straw>)
+
+visibleIf("staging:stage0/clay_knapping")

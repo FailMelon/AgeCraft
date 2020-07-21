@@ -1,0 +1,24 @@
+setTranslatedTitle("advancements.stage1.breadmaker.title")
+
+setIcon(<tfc:food/barley_bread>)
+
+setTranslatedDescription("advancements.stage1.breadmaker.description")
+
+addParent("staging:stage0/dough")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("barley_bread", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/barley_bread>)
+criteria = addCriteria("cornbread", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/cornbread>)
+criteria = addCriteria("oat_bread", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/oat_bread>)
+criteria = addCriteria("rice_bread", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/rice_bread>)
+criteria = addCriteria("rye_bread", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/rye_bread>)
+criteria = addCriteria("wheat_bread", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/wheat_bread>)
+
+setRequirements("any")

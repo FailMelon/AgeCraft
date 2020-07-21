@@ -1,0 +1,1 @@
+tellraw @p {"text":"§6Who left this garbage here?!"}

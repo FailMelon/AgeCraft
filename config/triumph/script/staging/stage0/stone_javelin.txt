@@ -1,0 +1,19 @@
+setTranslatedTitle("advancements.stage0.stone_javelin.title")
+
+setIcon(<tfc:stone/javelin/igneous_intrusive>)
+
+setTranslatedDescription("advancements.stage0.stone_javelin.description")
+
+addParent("staging:stage0/knapping")
+
+//Criteria
+javelin_ig_in = addCriteria("javelin_ig_in", "minecraft:inventory_changed")
+javelin_ig_in.addItem(<tfc:stone/javelin/igneous_intrusive>)
+javelin_ig_ex = addCriteria("javelin_ig_ex", "minecraft:inventory_changed")
+javelin_ig_ex.addItem(<tfc:stone/javelin/igneous_extrusive>)
+javelin_sed = addCriteria("javelin_sed", "minecraft:inventory_changed")
+javelin_sed.addItem(<tfc:stone/javelin/sedimentary>)
+javelin_met = addCriteria("javelin_met", "minecraft:inventory_changed")
+javelin_met.addItem(<tfc:stone/javelin/metamorphic>)
+
+setRequirements("any")

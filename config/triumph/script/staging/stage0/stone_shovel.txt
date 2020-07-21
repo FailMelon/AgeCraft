@@ -1,0 +1,19 @@
+setTranslatedTitle("advancements.stage0.stone_shovel.title")
+
+setIcon(<tfc:stone/shovel/igneous_intrusive>)
+
+setTranslatedDescription("advancements.stage0.stone_shovel.description")
+
+addParent("staging:stage0/knapping")
+
+//Criteria
+shovel_ig_in = addCriteria("shovel_ig_in", "minecraft:inventory_changed")
+shovel_ig_in.addItem(<tfc:stone/shovel/igneous_intrusive>)
+shovel_ig_ex = addCriteria("shovel_ig_ex", "minecraft:inventory_changed")
+shovel_ig_ex.addItem(<tfc:stone/shovel/igneous_extrusive>)
+shovel_sed = addCriteria("shovel_sed", "minecraft:inventory_changed")
+shovel_sed.addItem(<tfc:stone/shovel/sedimentary>)
+shovel_met = addCriteria("shovel_met", "minecraft:inventory_changed")
+shovel_met.addItem(<tfc:stone/shovel/metamorphic>)
+
+setRequirements("any")

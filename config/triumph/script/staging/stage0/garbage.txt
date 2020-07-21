@@ -1,0 +1,20 @@
+setTranslatedTitle("advancements.stage0.garbage.title")
+
+setIcon(<rats:garbage_pile>)
+
+setTranslatedDescription("advancements.stage0.garbage.description")
+
+addParent("staging:stage0/root")
+
+//Criteria
+criteria = addCriteria("garbage_pile", "triumph:player_break_block")
+criteria.setBlock(<rats:garbage_pile>)
+
+setPos(32,-96)
+
+hideLines()
+
+//Rewards
+setRewardFunction("staging:discovery/garbage")
+
+setHidden(true)

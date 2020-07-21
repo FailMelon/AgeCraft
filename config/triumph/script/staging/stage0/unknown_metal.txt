@@ -1,0 +1,17 @@
+setTranslatedTitle("advancements.stage0.unknown_metal.title")
+
+setIcon(<tfc:metal/ingot/unknown>)
+
+setTranslatedDescription("advancements.stage0.unknown_metal.description")
+
+addParent("staging:stage0/root")
+
+//Criteria
+criteria = addCriteria("unknown_metal", "minecraft:inventory_changed")
+criteria.addItem(<tfc:metal/ingot/unknown>)
+
+setPos(0,-96)
+
+hideLines()
+
+setHidden(true)

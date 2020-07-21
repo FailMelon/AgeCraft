@@ -1,0 +1,26 @@
+setTranslatedTitle("advancements.stage0.root.title")
+
+setIcon(<tfc:stone/javelin/igneous_intrusive>)
+
+setTranslatedDescription("advancements.stage0.root.description")
+
+setBackground("tfc:textures/gui/advancements/backgrounds/main.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setRequirements("any")
+
+//Criteria
+addCriteria("breakBlock", "triumph:player_break_block")
+addCriteria("craftItem", "triumph:player_crafted_item")
+addCriteria("enterDimension", "minecraft:changed_dimension")
+addCriteria("inventoryChange", "minecraft:inventory_changed")
+addCriteria("killEntity", "minecraft:player_killed_entity")
+addCriteria("killedByEntity", "minecraft:entity_killed_player")
+addCriteria("location", "minecraft:location")
+
+
+//Rewards
+setRewardFunction("staging:stage-0_trigger")

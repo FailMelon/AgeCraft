@@ -1,0 +1,5 @@
+gamestage add @p Mesolithic
+gamestage add @p Neolithic
+
+title @p title {"text":"Mesolithic & Neolithic Age","bold":true,"color":"gold"}
+title @p subtitle {"text": "Age of Pottery"}

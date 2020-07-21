@@ -1,0 +1,1 @@
+tellraw @p {"text":"§6This stuff taste nasty and is only making me more thirsty!"}

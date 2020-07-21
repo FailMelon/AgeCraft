@@ -1,0 +1,1 @@
+tellraw @p {"text":"§6Upon entering the water a warm sensation comes across you, this water is warm and very relaxing! This water seems to have rejuvenative properties to it."}

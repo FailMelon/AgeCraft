@@ -1,0 +1,22 @@
+setTranslatedTitle("advancements.stage0.bronze_ingot.title")
+
+setIcon(<tfc:metal/ingot/bronze>)
+
+setTranslatedDescription("advancements.stage0.bronze_ingot.description")
+
+addParent("staging:stage0/crucible")
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+bronze_ingot = addCriteria("bronze_ingot", "minecraft:inventory_changed")
+bronze_ingot.addItem(<tfc:metal/ingot/bronze>)
+
+setRequirements("any")
+
+//Rewards
+setRewardFunction("staging:stage-4_trigger")

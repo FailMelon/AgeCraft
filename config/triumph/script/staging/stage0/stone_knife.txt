@@ -1,0 +1,19 @@
+setTranslatedTitle("advancements.stage0.stone_knife.title")
+
+setIcon(<tfc:stone/knife/igneous_intrusive>)
+
+setTranslatedDescription("advancements.stage0.stone_knife.description")
+
+addParent("staging:stage0/knapping")
+
+//Criteria
+knife_ig_in = addCriteria("knife_ig_in", "minecraft:inventory_changed")
+knife_ig_in.addItem(<tfc:stone/knife/igneous_intrusive>)
+knife_ig_ex = addCriteria("knife_ig_ex", "minecraft:inventory_changed")
+knife_ig_ex.addItem(<tfc:stone/knife/igneous_extrusive>)
+knife_sed = addCriteria("knife_sed", "minecraft:inventory_changed")
+knife_sed.addItem(<tfc:stone/knife/sedimentary>)
+knife_met = addCriteria("knife_met", "minecraft:inventory_changed")
+knife_met.addItem(<tfc:stone/knife/metamorphic>)
+
+setRequirements("any")
