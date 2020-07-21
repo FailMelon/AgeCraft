@@ -16,3 +16,15 @@ logs/
 mods/memory_repo/
 saves/
 notes/
+banned-ips.json
+banned-players.json
+eula.txt
+launch.bat
+minecraft_server.1.12.2.jar
+ops.json
+server.jar
+server.properties
+whitelist.json
+libraries/
+oldconfig/
+world/
