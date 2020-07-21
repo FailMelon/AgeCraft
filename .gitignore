@@ -28,3 +28,4 @@ whitelist.json
 libraries/
 oldconfig/
 world/
+config/ecomod/update.properties
