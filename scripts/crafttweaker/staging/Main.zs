@@ -13,7 +13,7 @@ import scripts.crafttweaker.stages.stageSix;
 static stagedMods as string[][string] = {
 	
 	stageThree.stage : [
-
+		"cellars"
 	],
 
 	stageFour.stage : [
