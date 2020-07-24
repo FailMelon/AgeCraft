@@ -7,7 +7,7 @@ import crafttweaker.item.IIngredient;
     Shaped Recipes
 */
 static shapedRecipes as IIngredient[][][][IItemStack] = {
-	<aqueducts:aqueduct> : [
+	<aqueducts:aqueduct> * 6 : [
 		[
 			[null, null, null],
 			[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
