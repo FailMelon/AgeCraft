@@ -13,8 +13,14 @@ setUncompletedTitleColor(8947848)
 setCompletedTitleColor(6570404)
 
 //Criteria
-bronze_ingot = addCriteria("bronze_ingot", "minecraft:inventory_changed")
-bronze_ingot.addItem(<tfc:metal/ingot/bronze>)
+criteria = addCriteria("bronze_ingot", "minecraft:inventory_changed")
+criteria.addItem(<tfc:metal/ingot/bronze>)
+
+criteria = addCriteria("bismuth_bronze_ingot", "minecraft:inventory_changed")
+criteria.addItem(<tfc:metal/ingot/bismuth_bronze>)
+
+criteria = addCriteria("black_bronze_ingot", "minecraft:inventory_changed")
+criteria.addItem(<tfc:metal/ingot/black_bronze>)
 
 setRequirements("any")
 
