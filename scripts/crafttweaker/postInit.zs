@@ -38,6 +38,7 @@ function LoadItemsStaging() {
 	scripts.crafttweaker.staging.mods.BetterWithMods.StageItems();
 	scripts.crafttweaker.staging.mods.WaterFlasks.StageItems();
 	scripts.crafttweaker.staging.mods.Railcraft.StageItems();
+	scripts.crafttweaker.staging.mods.StorageDrawers.StageItems();
 }
 
 function LoadEvents() {
