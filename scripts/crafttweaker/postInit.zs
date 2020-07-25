@@ -53,6 +53,7 @@ function LoadRecipes()
 {
 	scripts.crafttweaker.recipes.mods.Aqueducts.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.BetterWithMods.LoadRecipes();
+	scripts.crafttweaker.recipes.mods.Comforts.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.StorageDrawers.LoadRecipes();
 }
 
