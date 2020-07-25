@@ -45,7 +45,7 @@ function LoadEvents() {
 }
 
 function LoadDefinitions() {
-	scripts.crafttweaker.definitions.Hardness.Load();
+	//scripts.crafttweaker.definitions.Hardness.Load();
 }
 
 function LoadRecipes()
