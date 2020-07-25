@@ -281,6 +281,11 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:sugar>,
 	],
 
+	stageFour.stage: [
+		<minecraft:writable_book>,
+		<minecraft:written_book>
+	],
+
 	stageFive.stage: [
 		<minecraft:iron_bars>,
 		<minecraft:iron_door>,
@@ -328,8 +333,6 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:waterlily>,
 		<minecraft:web>,
 
-		<minecraft:writable_book>,
-		<minecraft:written_book>,
 		<minecraft:yellow_flower>,
 
 		<minecraft:string>,
