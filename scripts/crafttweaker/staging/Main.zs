@@ -17,12 +17,12 @@ static stagedMods as string[][string] = {
 	],
 
 	stageFour.stage : [
-		"aqueducts"
+		"aqueducts",
+		"comforts"
 	],
 
 	stageFive.stage : [
-		"littletiles",
-		"storagedrawers"
+		"littletiles"
 	],
 	
 	stageSeven.stage : [

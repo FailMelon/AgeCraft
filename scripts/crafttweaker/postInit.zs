@@ -38,6 +38,7 @@ function LoadItemsStaging() {
 	scripts.crafttweaker.staging.mods.BetterWithMods.StageItems();
 	scripts.crafttweaker.staging.mods.WaterFlasks.StageItems();
 	scripts.crafttweaker.staging.mods.Railcraft.StageItems();
+	scripts.crafttweaker.staging.mods.StorageDrawers.StageItems();
 }
 
 function LoadEvents() {
@@ -45,13 +46,16 @@ function LoadEvents() {
 }
 
 function LoadDefinitions() {
-	scripts.crafttweaker.definitions.Hardness.Load();
+	//scripts.crafttweaker.definitions.Hardness.Load();
 }
 
 function LoadRecipes()
 {
+	scripts.crafttweaker.recipes.mods.AstikorCarts.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.Aqueducts.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.BetterWithMods.LoadRecipes();
+	scripts.crafttweaker.recipes.mods.Comforts.LoadRecipes();
+	scripts.crafttweaker.recipes.mods.StorageDrawers.LoadRecipes();
 }
 
 function LoadIntegrations() {
