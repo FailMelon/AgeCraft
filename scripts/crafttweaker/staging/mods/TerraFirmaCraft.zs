@@ -2620,9 +2620,6 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/pig_iron>,
 		<tfc:metal/sheet/pig_iron>,
 		
-		<tfc:metal/lamp/pig_iron>,
-		<tfc:metal/lamp/pig_iron>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}})
-		
 	],
 	
 	stageDisabled.stage: [
