@@ -2451,13 +2451,13 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:ore/sylvite/shale>,
 		<tfc:ore/sylvite/slate>,
 
-		<tfc:bloomery>,	
+		<tfc:bloomery>,
+		
+		<tfc:bloom/refined>,
+		<tfc:bloom/unrefined>,
 	],
 	
 	stageFive.stage: [
-		<tfc:bloom/refined>,
-		<tfc:bloom/unrefined>,
-
 		<tfc:metal/axe_head/wrought_iron>,
 		<tfc:metal/chisel_head/wrought_iron>,
 		<tfc:metal/hammer_head/wrought_iron>,
