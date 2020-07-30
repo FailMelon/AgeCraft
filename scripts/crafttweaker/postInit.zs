@@ -50,11 +50,14 @@ function LoadDefinitions() {
 
 function LoadRecipes()
 {
+	scripts.crafttweaker.recipes.Main.RemoveModsRecipes();
+	
 	scripts.crafttweaker.recipes.mods.AstikorCarts.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.Aqueducts.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.BetterWithMods.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.Comforts.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.StorageDrawers.LoadRecipes();
+	scripts.crafttweaker.recipes.mods.LittleTiles.LoadRecipes();
 }
 
 function LoadIntegrations() {
