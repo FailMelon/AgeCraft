@@ -15,10 +15,6 @@ import scripts.crafttweaker.stages.stageDisabled;
 
 static stagedItems as IIngredient[][string] = {
 
-	stageZero.stage: [
-
-	],
-
 	stageThree.stage: [
 		<betterwithmods:wool_boots>,
 		<betterwithmods:wool_chest>,
@@ -26,7 +22,7 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithmods:wool_pants>,
 	],
 
-	stageFour.stage: [
+	stageFive.stage: [
 
 		<betterwithmods:moulding_wood>.withTag({texture: {Name: "tfc:wood/planks/acacia"}}),
 		<betterwithmods:moulding_wood>.withTag({texture: {Name: "tfc:wood/planks/ash"}}),
@@ -107,9 +103,6 @@ static stagedItems as IIngredient[][string] = {
 		//Wooden Gear
 		<betterwithmods:material>,
 
-		//Leather Strap
-		<betterwithmods:material:8>,
-
 		//Leather Belt
 		<betterwithmods:material:9>,
 
@@ -119,6 +112,9 @@ static stagedItems as IIngredient[][string] = {
 		//Wind Sail
 		<betterwithmods:material:11>,
 
+		//Redstone Latch
+		<betterwithmods:material:34>,
+
 		<betterwithmods:saw>,
 		<betterwithmods:stake>,
 
@@ -126,9 +122,6 @@ static stagedItems as IIngredient[][string] = {
 
 		<betterwithmods:bamboo_chime>,
 		<betterwithmods:metal_chime>,
-	],
-
-	stageSix.stage: [
 	],
 
 	stageDisabled.stage: [
@@ -334,7 +327,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithmods:material:6>,
 		<betterwithmods:material:7>,
 		<betterwithmods:material:8>,
-
 		<betterwithmods:material:12>,
 		<betterwithmods:material:13>,
 		<betterwithmods:material:14>,
@@ -357,7 +349,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithmods:material:31>,
 		<betterwithmods:material:32>,
 		<betterwithmods:material:33>,
-		<betterwithmods:material:34>,
 		<betterwithmods:material:35>,
 		<betterwithmods:material:36>,
 		<betterwithmods:material:37>,
