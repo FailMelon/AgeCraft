@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 // String Array listing of the modId's to which we want ALL recipes removed.
 static modIdRecipeRemoval as string[] = [
 	"littletiles",
+	"toolbelt"
 ];
 
 function RemoveModsRecipes() {

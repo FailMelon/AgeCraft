@@ -59,6 +59,7 @@ function LoadRecipes()
 	scripts.crafttweaker.recipes.mods.StorageDrawers.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.LittleTiles.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.TerraFirmaCraft.LoadRecipes();
+	scripts.crafttweaker.recipes.mods.ToolBelt.LoadRecipes();
 }
 
 function LoadIntegrations() {
