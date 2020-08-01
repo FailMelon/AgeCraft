@@ -122,6 +122,10 @@ static stagedItems as IIngredient[][string] = {
 
 		<betterwithmods:bamboo_chime>,
 		<betterwithmods:metal_chime>,
+
+		//Millstone
+		<betterwithmods:single_machine>,
+
 	],
 
 	stageDisabled.stage: [
@@ -447,8 +451,6 @@ static stagedItems as IIngredient[][string] = {
 		<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}),
 		<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}),
 		<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}}),
-
-		<betterwithmods:single_machine>,
 
 		<betterwithmods:single_machine:2>,
 		<betterwithmods:single_machine:3>,
