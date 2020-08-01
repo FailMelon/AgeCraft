@@ -14,8 +14,6 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 
 function LoadRecipes()
 {
-	RecipeHelper.RemoveRecipes(removeRecipes);
-
 	Anvil.addRecipe("bismuth_nugget", <tfc:metal/ingot/bismuth>, <tfc:metal/nugget/bismuth> * 9, 1, "tools", "HIT_ANY", "DRAW_SECOND_LAST", "UPSET_NOT_LAST");
 	Anvil.addRecipe("bismuth_bronze_nugget", <tfc:metal/ingot/bismuth_bronze>, <tfc:metal/nugget/bismuth_bronze> * 9, 2, "tools", "HIT_ANY", "DRAW_SECOND_LAST", "UPSET_NOT_LAST");
 	Anvil.addRecipe("black_bronze_nugget", <tfc:metal/ingot/black_bronze>, <tfc:metal/nugget/black_bronze> * 9, 2, "tools", "HIT_ANY", "DRAW_SECOND_LAST", "UPSET_NOT_LAST");
