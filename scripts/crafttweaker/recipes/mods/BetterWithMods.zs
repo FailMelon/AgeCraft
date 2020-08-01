@@ -35,7 +35,59 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 			[<tfc:crop/product/jute_fiber>, null, null],
 			[<tfc:crop/product/jute_fiber>, null, null]
 		],
-	]
+	],
+
+	// Pulley
+	<betterwithmods:single_machine:1> : [
+		[
+			[<ore:sidingWood>, <ore:ingotWroughtIron>, <ore:sidingWood>],
+			[<ore:gearWood>, <betterwithmods:material:34>, <ore:gearWood>],
+			[<ore:sidingWood>, <ore:ingotWroughtIron>, <ore:sidingWood>]
+		],
+		[
+			[<ore:plankWood>, <ore:ingotWroughtIron>, <ore:plankWood>],
+			[<ore:gearWood>, <betterwithmods:material:34>, <ore:gearWood>],
+			[<ore:plankWood>, <ore:ingotWroughtIron>, <ore:plankWood>]
+		],
+	],
+
+	<betterwithmods:saw> : [
+		[
+			[<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>],
+			[<ore:gearWood>, <ore:hideBelt>, <ore:gearWood>],
+			[<ore:sidingWood>, <ore:gearWood>, <ore:sidingWood>]
+		],
+		[
+			[<ore:ingotWroughtIron>, <ore:ingotWroughtIron>, <ore:ingotWroughtIron>],
+			[<ore:gearWood>, <ore:hideBelt>, <ore:gearWood>],
+			[<ore:plankWood>, <ore:gearWood>, <ore:plankWood>]
+		]
+	],
+
+	<betterwithmods:metal_chime> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <ore:sidingWood>, <ore:string>],
+			[<ore:ingotWroughtIron>, <ore:sidingWood>, <ore:ingotWroughtIron>]
+		],
+	],
+
+	<betterwithmods:bamboo_chime> : [
+		[
+			[null, <ore:string>, null],
+			[<ore:string>, <ore:sidingWood>, <ore:string>],
+			[<tfc:food/sugarcane>, <ore:sidingWood>, <tfc:food/sugarcane>]
+		],
+	],
+	
+	<betterwithmods:platform>: [
+		[
+			[<ore:lumber>, <ore:sidingWood>, <ore:lumber>],
+			[<ore:sidingWood>, null, <ore:sidingWood>],
+			[<ore:lumber>, <ore:sidingWood>, <ore:lumber>]
+		],
+	],
+
 };
 
 static removeSawRecipes as IItemStack[] = [
@@ -301,6 +353,11 @@ static removeRecipes as IItemStack[] = [
 	<betterwithmods:material:11>,
 	<betterwithmods:rope>,
 	<betterwithmods:anchor>,
+	<betterwithmods:single_machine:1>,
+	<betterwithmods:saw>,
+	<betterwithmods:metal_chime>,
+	<betterwithmods:bamboo_chime>,
+	<betterwithmods:platform>
 ];
 
 function LoadRecipes() {
