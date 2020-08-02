@@ -108,6 +108,8 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:flower_pot>,
 
 		<minecraft:painting>,
+
+		<minecraft:egg>,
 	],
 
 	stageThree.stage: [
@@ -604,8 +606,6 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:dragon_egg>,
 
 		<minecraft:dropper>,
-
-		<minecraft:egg>,
 
 		<minecraft:elytra>,
 
