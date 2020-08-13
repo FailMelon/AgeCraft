@@ -1,0 +1,13 @@
+setTranslatedTitle("advancements.stage0.firepit.title")
+
+setIcon(<tfc:firepit>)
+
+setTranslatedDescription("advancements.stage0.firepit.description")
+
+addParent("staging:stage0/firestarter")
+
+//Criteria
+firepit = addCriteria("firepit", "triumph:right_click_block")
+firepit.setBlock(<tfc:firepit>)
+
+setRequirements("any")

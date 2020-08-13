@@ -1,0 +1,20 @@
+setTranslatedTitle("advancements.stage0.hot_spring.title")
+
+setIcon(<minecraft:water_bucket>)
+
+setTranslatedDescription("advancements.stage0.hot_spring.description")
+
+addParent("staging:stage0/root")
+
+//Criteria
+criteria = addCriteria("hot_spring", "minecraft:enter_block")
+criteria.setBlock(<tfc:fluid/hot_water>)
+
+setPos(0,-64)
+
+hideLines()
+
+//Rewards
+setRewardFunction("staging:discovery/hot_spring")
+
+setHidden(true)

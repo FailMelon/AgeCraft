@@ -1,0 +1,36 @@
+setTranslatedTitle("advancements.stage0.clay_knapping.title")
+
+setIcon(<tfc:ceramics/unfired/vessel>)
+
+setTranslatedDescription("advancements.stage0.clay_knapping.description")
+
+addParent("staging:stage0/find_clay")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+clay_vessel = addCriteria("clay_vessel", "minecraft:inventory_changed")
+clay_vessel.addItem(<tfc:ceramics/unfired/vessel>)
+
+clay_bowl = addCriteria("clay_bowl", "minecraft:inventory_changed")
+clay_bowl.addItem(<tfc:ceramics/unfired/bowl>)
+
+clay_jug = addCriteria("clay_jug", "minecraft:inventory_changed")
+clay_jug.addItem(<tfc:ceramics/unfired/jug>)
+
+clay_pot = addCriteria("clay_pot", "minecraft:inventory_changed")
+clay_pot.addItem(<tfc:ceramics/unfired/pot>)
+
+large_vessel_pot = addCriteria("large_vessel_pot", "minecraft:inventory_changed")
+large_vessel_pot.addItem(<tfc:ceramics/unfired/large_vessel>)
+
+setRequirements("any")
+
+//Rewards
+setRewardFunction("staging:stage-1_&_2_trigger")

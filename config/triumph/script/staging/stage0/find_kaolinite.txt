@@ -1,0 +1,19 @@
+setTranslatedTitle("advancements.stage0.kaolinite.title")
+
+setIcon(<tfc:ore/kaolinite>)
+
+setTranslatedDescription("advancements.stage0.kaolinite.description")
+
+addParent("staging:stage0/mining")
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+kaolinite = addCriteria("kaolinite", "minecraft:inventory_changed")
+kaolinite.addItem(<tfc:ore/kaolinite>)
+
+setRequirements("any")

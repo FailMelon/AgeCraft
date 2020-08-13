@@ -1,0 +1,19 @@
+setTranslatedTitle("advancements.stage0.scraped_hide.title")
+
+setIcon(<tfc:hide/scraped/medium>)
+
+setTranslatedDescription("advancements.stage0.scraped_hide.description")
+
+addParent("staging:stage0/soaked_hide")
+
+//Criteria
+criteria = addCriteria("hide_small", "minecraft:inventory_changed")
+criteria.addItem(<tfc:hide/scraped/small>)
+criteria = addCriteria("hide_medium", "minecraft:inventory_changed")
+criteria.addItem(<tfc:hide/scraped/medium>)
+criteria = addCriteria("hide_large", "minecraft:inventory_changed")
+criteria.addItem(<tfc:hide/scraped/large>)
+
+setRequirements("any")
+
+

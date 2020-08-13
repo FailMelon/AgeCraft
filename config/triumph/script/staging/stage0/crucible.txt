@@ -1,0 +1,21 @@
+setTranslatedTitle("advancements.stage1.make_crucible.title")
+
+setIcon(<tfc:crucible>)
+
+setTranslatedDescription("advancements.stage1.make_crucible.description")
+
+addParent("staging:stage0/powder")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+crucible = addCriteria("crucible", "minecraft:inventory_changed")
+crucible.addItem(<tfc:crucible>)
+
+setRequirements("any")

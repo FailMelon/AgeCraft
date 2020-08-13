@@ -1,0 +1,19 @@
+setTranslatedTitle("advancements.stage0.pick_rock.title")
+
+setIcon(<tfc:rock/granite>)
+
+setTranslatedDescription("advancements.stage0.pick_rock.description")
+
+addParent("staging:stage0/root")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("rock", "minecraft:inventory_changed")
+criteria.addItem(<ore:rock>)

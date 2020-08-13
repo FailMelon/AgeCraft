@@ -1,0 +1,19 @@
+setTranslatedTitle("advancements.stage0.stone_axe.title")
+
+setIcon(<tfc:stone/axe/igneous_intrusive>)
+
+setTranslatedDescription("advancements.stage0.stone_axe.description")
+
+addParent("staging:stage0/knapping")
+
+//Criteria
+axe_ig_in = addCriteria("axe_ig_in", "minecraft:inventory_changed")
+axe_ig_in.addItem(<tfc:stone/axe/igneous_intrusive>)
+axe_ig_ex = addCriteria("axe_ig_ex", "minecraft:inventory_changed")
+axe_ig_ex.addItem(<tfc:stone/axe/igneous_extrusive>)
+axe_sed = addCriteria("axe_sed", "minecraft:inventory_changed")
+axe_sed.addItem(<tfc:stone/axe/sedimentary>)
+axe_met = addCriteria("axe_met", "minecraft:inventory_changed")
+axe_met.addItem(<tfc:stone/axe/metamorphic>)
+
+setRequirements("any")
