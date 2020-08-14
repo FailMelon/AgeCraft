@@ -1,0 +1,70 @@
+{
+  "StartingAge": "paleolithic",
+  "Ages": [
+    {
+      "Name": "paleolithic",
+      "DisplayName": "Paleolithic Age",
+      "Icon": {
+        "item": "tfc:stone/javelin/igneous_intrusive"
+      },
+      "StageUnlocks": [
+        "Paleolithic"
+      ],
+      "NextAge": "mesolithic"
+    },
+    {
+      "Name": "mesolithic",
+      "DisplayName": "Mesolithic Age",
+      "Icon": {
+        "item": "tfc:ceramics/fired/vessel"
+      },
+      "StageUnlocks": [
+        "Mesolithic"
+      ],
+      "NextAge": "neolithic"
+    },
+    {
+      "Name": "neolithic",
+      "DisplayName": "Neolithic Age",
+      "Icon": {
+        "item": "tfc:crop/seeds/barley"
+      },
+      "StageUnlocks": [
+        "Neolithic"
+      ],
+      "NextAge": "chalcolithic"
+    },
+    {
+      "Name": "chalcolithic",
+      "DisplayName": "Chalcolithic Age",
+      "Icon": {
+        "item": "tfc:metal/ingot/copper"
+      },
+      "StageUnlocks": [
+        "Chalcolithic"
+      ],
+      "NextAge": "bronze"
+    },
+    {
+      "Name": "bronze",
+      "DisplayName": "Bronze Age",
+      "Icon": {
+        "item": "tfc:metal/ingot/bronze"
+      },
+      "StageUnlocks": [
+        "Bronze"
+      ],
+      "NextAge": "iron"
+    },
+    {
+      "Name": "iron",
+      "DisplayName": "Iron Age",
+      "Icon": {
+        "item": "tfc:metal/ingot/wrought_iron"
+      },
+      "StageUnlocks": [
+        "Iron"
+      ]
+    }
+  ]
+}
