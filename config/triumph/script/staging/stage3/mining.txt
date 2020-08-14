@@ -1,0 +1,18 @@
+setTranslatedTitle("advancements.stage0.mining.title")
+
+setIcon(<tfc:metal/pick/copper>)
+
+setTranslatedDescription("advancements.stage0.mining.description")
+
+addParent("staging:stage2/copper_get")
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+criteria = addCriteria("copper_pickaxe", "minecraft:inventory_changed")
+criteria.addItem(<tfc:metal/pick/copper>)

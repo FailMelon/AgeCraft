@@ -1,6 +1,6 @@
 setTranslatedTitle("advancements.stage0.root.title")
 
-setIcon(<tfc:stone/javelin/igneous_intrusive>)
+setIcon(<tfc:rock/granite>)
 
 setTranslatedDescription("advancements.stage0.root.description")
 

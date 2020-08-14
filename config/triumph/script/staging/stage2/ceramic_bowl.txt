@@ -1,0 +1,13 @@
+setTranslatedTitle("advancements.stage0.ceramic_bowl.title")
+
+setIcon(<tfc:ceramics/fired/bowl>)
+
+setTranslatedDescription("advancements.stage0.ceramic_bowl.description")
+
+addParent("staging:stage2/pottery")
+
+//Criteria
+bowl = addCriteria("bowl", "minecraft:inventory_changed")
+bowl.addItem(<tfc:ceramics/fired/bowl>)
+
+setRequirements("any")

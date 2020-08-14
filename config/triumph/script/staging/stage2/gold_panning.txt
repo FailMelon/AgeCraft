@@ -1,0 +1,11 @@
+setTranslatedTitle("advancements.stage0.gold_panning.title")
+
+setIcon(<tfc:goldpan>)
+
+setTranslatedDescription("advancements.stage0.gold_panning.description")
+
+addParent("staging:stage2/ceramic_bowl")
+
+//Criteria
+criteria = addCriteria("goldpan", "minecraft:inventory_changed")
+criteria.addItem(<tfc:goldpan>)

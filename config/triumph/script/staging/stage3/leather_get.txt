@@ -1,0 +1,11 @@
+setTranslatedTitle("advancements.stage0.leather_get.title")
+
+setIcon(<minecraft:leather>)
+
+setTranslatedDescription("advancements.stage0.leather_get.description")
+
+addParent("staging:stage3/prepared_hide")
+
+//Criteria
+criteria = addCriteria("leather", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:leather>)

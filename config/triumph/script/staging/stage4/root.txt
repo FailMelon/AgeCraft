@@ -1,6 +1,6 @@
 setTranslatedTitle("advancements.stage4.root.title")
 
-setIcon(<tfc:metal/hammer/bronze>)
+setIcon(<tfc:metal/ingot/bronze>)
 
 setTranslatedDescription("advancements.stage4.root.description")
 
@@ -11,4 +11,4 @@ setShowToast(false)
 setAnnounceToChat(false)
 
 criteria = addCriteria("advanceStage4", "triumph:completed_advancement")
-criteria.setString("staging:stage0/bronze_ingot")
+criteria.setString("staging:stage3/bronze_ingot")

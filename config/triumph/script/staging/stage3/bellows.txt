@@ -1,0 +1,12 @@
+setTranslatedTitle("advancements.stage0.bellows.title")
+
+setIcon(<tfc:bellows>)
+
+setTranslatedDescription("advancements.stage0.bellows.description")
+
+addParent("staging:stage3/leather_get")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("bellows", "minecraft:inventory_changed")
+criteria.addItem(<tfc:bellows>)

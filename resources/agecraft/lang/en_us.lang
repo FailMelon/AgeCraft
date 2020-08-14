@@ -7,9 +7,6 @@ advancements.stage0.pick_rock.description=Pick up a Stone from the ground.
 advancements.stage0.knapping.title=Progress: Knapping
 advancements.stage0.knapping.description=Knap your first tool head by having 2 stones and right clicking the ground while in your hand. (Look at tool head recipes in JEI for how to knap them)
 
-advancements.stage0.stone_javelin.title=Side: Throwy Throwy
-advancements.stage0.stone_javelin.description=Create a javelin by grabbing a stick or bone with your [§2cursor§r], [§2holding shift§r] and clicking on a javelin head in your inventory.
-
 advancements.stage0.first_kill.title=Side: First Blood
 advancements.stage0.first_kill.description=Kill your first victim.
 
@@ -18,9 +15,6 @@ advancements.stage0.first_meal.description=Cook meat in the Firepit.
 
 advancements.stage0.thirsty.title=Side: Water!
 advancements.stage0.thirsty.description=So thirsty need to drink water, [§2right click§r] in water to drink it!
-
-advancements.stage0.salty.title=Hidden: Salty
-advancements.stage0.salty.description=Drinking salt water is bad! It'll only make you more thirsty.
 
 advancements.stage0.firestarter.title=Side: A way to make fire
 advancements.stage0.firestarter.description=Create a firestarter by combining two sticks together by, grabbing a stick with your [§2cursor§r], [§2holding shift§r] and clicking on another stick.
@@ -31,20 +25,20 @@ advancements.stage0.firepit.description=Create a Firepit by throwing 1 log and 3
 advancements.stage0.torch.title=Side: Olde Torch
 advancements.stage0.torch.description=By throwing sticks inside the pitkiln we can now make torches!
 
+advancements.stage0.stone_javelin.title=Side: Throwy Throwy
+advancements.stage0.stone_javelin.description=Create a javelin with a stick or bone and a javelin head in your inventory.
+
 advancements.stage0.stone_knife.title=Side: Stabby Stabby
-advancements.stage0.stone_knife.description=Create a knife by grabbing a stick or bone with your [§2cursor§r], [§2holding shift§r] and clicking on a knife head in your inventory.
+advancements.stage0.stone_knife.description=Create a knife with a stick or bone and a knife head in your inventory.
 
 advancements.stage0.stone_shovel.title=Side: Diggy Diggy
-advancements.stage0.stone_shovel.description=Create a shovel by grabbing a stick or bone with your [§2cursor§r], [§2holding shift§r] and clicking on a shovel head in your inventory.
+advancements.stage0.stone_shovel.description=Create a shovel with a stick or bone and a shovel head in your inventory.
 
 advancements.stage0.stone_axe.title=Side: Choppy Choppy
-advancements.stage0.stone_axe.description=Create a Axe by grabbing a stick or bone with your [§2cursor§r], [§2holding shift§r] and clicking on a axe head in your inventory.
+advancements.stage0.stone_axe.description=Create a Axe with a stick or bone and a axe head in your inventory.
 
 advancements.stage0.get_straw.title=Side: Grasping at Straws
 advancements.stage0.get_straw.description=Break tallgrass with a knife to get straw!
-
-advancements.stage0.hot_spring.title=Hidden: Found hotspring!
-advancements.stage0.hot_spring.description=This water has rejuvenative properties to it, use it to heal after taking damage.
 
 advancements.stage0.logging.title=Side: Timberrr!
 advancements.stage0.logging.description=Use an axe to cut down a tree.
@@ -86,3 +80,11 @@ advancements.stage4.root.description=Age of ... Bronze
 
 advancements.stage5.root.title=Iron Age
 advancements.stage5.root.description=Age of ... Iron
+
+
+
+advancements.secret.salty.title=Hidden: Salty
+advancements.secret.salty.description=Drinking salt water is bad! It'll only make you more thirsty.
+
+advancements.secret.hot_spring.title=Hidden: Found hotspring!
+advancements.secret.hot_spring.description=This water has rejuvenative properties to it, use it to heal after taking damage.

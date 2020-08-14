@@ -1,0 +1,24 @@
+setTranslatedTitle("advancements.stage1.dough.title")
+
+setIcon(<tfc:food/barley_dough>)
+
+setTranslatedDescription("advancements.stage1.dough.description")
+
+addParent("staging:stage3/flour")
+setRequiresParents()
+
+//Criteria
+criteria = addCriteria("barley_dough", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/barley_dough>)
+criteria = addCriteria("cornmeal_dough", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/cornmeal_dough>)
+criteria = addCriteria("oat_dough", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/oat_dough>)
+criteria = addCriteria("rice_dough", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/rice_dough>)
+criteria = addCriteria("rye_dough", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/rye_dough>)
+criteria = addCriteria("wheat_dough", "minecraft:inventory_changed")
+criteria.addItem(<tfc:food/wheat_dough>)
+
+setRequirements("any")

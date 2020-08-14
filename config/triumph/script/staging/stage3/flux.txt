@@ -1,0 +1,11 @@
+setTranslatedTitle("advancements.stage0.flux.title")
+
+setIcon(<tfc:powder/flux>)
+
+setTranslatedDescription("advancements.stage0.flux.description")
+
+addParent("staging:stage3/quern")
+
+//Criteria
+criteria = addCriteria("flux", "minecraft:inventory_changed")
+criteria.addItem(<tfc:powder/flux>)

@@ -7,4 +7,4 @@ removeAdvancements([""])
 allowDragging(false)
 useNewParentCompletionCriteriaNames()
 
-pageOrder(["staging:stage0/root", "staging:stage4/root", "staging:stage5/root"])
+pageOrder(["staging:stage0/root", "staging:stage4/root", "staging:stage5/root", "staging:secret/root"])

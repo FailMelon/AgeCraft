@@ -1,0 +1,20 @@
+setTranslatedTitle("advancements.stage0.soaked_hide.title")
+
+setIcon(<tfc:hide/soaked/medium>)
+
+setTranslatedDescription("advancements.stage0.soaked_hide.description")
+
+addParent("staging:stage0/raw_hide")
+
+//Criteria
+criteria = addCriteria("hide_small", "minecraft:inventory_changed")
+criteria.addItem(<tfc:hide/soaked/small>)
+criteria = addCriteria("hide_medium", "minecraft:inventory_changed")
+criteria.addItem(<tfc:hide/soaked/medium>)
+criteria = addCriteria("hide_large", "minecraft:inventory_changed")
+criteria.addItem(<tfc:hide/soaked/large>)
+
+setRequirements("any")
+
+hiddenUnless("staging:stage2/copper_get")
+

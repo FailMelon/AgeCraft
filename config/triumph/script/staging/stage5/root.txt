@@ -1,6 +1,6 @@
 setTranslatedTitle("advancements.stage5.root.title")
 
-setIcon("tfc:metal/hammer/wrought_iron")
+setIcon(<tfc:metal/ingot/wrought_iron>)
 
 setTranslatedDescription("advancements.stage5.root.description")
 

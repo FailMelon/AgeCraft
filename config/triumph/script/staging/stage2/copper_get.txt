@@ -1,0 +1,34 @@
+setTranslatedTitle("advancements.stage0.copper_get.title")
+
+setIcon(<tfc:metal/ingot/copper>)
+
+setTranslatedDescription("advancements.stage0.copper_get.description")
+
+addParent("staging:stage2/pottery")
+setRequiresParents()
+
+setFrameType("Goal")
+
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+
+//Criteria
+copper_ingot = addCriteria("copper_get", "minecraft:inventory_changed")
+copper_ingot.addItem(<tfc:metal/ingot/copper>)
+copper_knife = addCriteria("copper_knife", "minecraft:inventory_changed")
+copper_knife.addItem(<tfc:metal/knife/copper>)
+copper_axe = addCriteria("copper_axe", "minecraft:inventory_changed")
+copper_axe.addItem(<tfc:metal/axe/copper>)
+copper_javelin = addCriteria("copper_javelin", "minecraft:inventory_changed")
+copper_javelin.addItem(<tfc:metal/javelin/copper>)
+copper_shovel = addCriteria("copper_shovel", "minecraft:inventory_changed")
+copper_shovel.addItem(<tfc:metal/shovel/copper>)
+
+setRequirements("any")
+
+//Rewards
+setRewardFunction("staging:stage-3_trigger")
+
+hiddenUnless("staging:stage2/find_copper")
