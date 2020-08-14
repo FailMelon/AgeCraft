@@ -1,4 +1,4 @@
-gamestage add @p Paleolithic
+age set @p paleolithic
 
 title @p title {"text":"Paleolithic Age","bold":true,"color":"gold"}
 title @p subtitle {"text": "Age of Gathering"}
