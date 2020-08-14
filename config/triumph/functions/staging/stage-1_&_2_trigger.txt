@@ -1,4 +1,4 @@
-age set @p nesolithic
+age set @p neolithic
 
 title @p title {"text":"Mesolithic & Neolithic Age","bold":true,"color":"gold"}
 title @p subtitle {"text": "Age of Pottery"}
