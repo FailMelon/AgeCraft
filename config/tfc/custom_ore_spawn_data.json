@@ -36,7 +36,7 @@
     "shape": "cluster",
     "rarity": 540,
     "minimum_height": 80,
-    "maximum_height": 140,
+    "maximum_height": 120,
     "density": 90,
     "base_rocks": [
       "tfc:sedimentary"
@@ -122,7 +122,7 @@
     "shape": "cluster",
     "rarity": 480,
     "minimum_height": 90,
-    "maximum_height": 144,
+    "maximum_height": 120,
     "density":100,
     "base_rocks": [
       "tfc:limestone",
@@ -137,7 +137,7 @@
     "shape": "cluster",
     "rarity": 540,
     "minimum_height": 110,
-    "maximum_height": 144,
+    "maximum_height": 120,
     "density":100,
     "base_rocks": [
       "tfc:sedimentary"
@@ -151,7 +151,7 @@
     "shape": "cluster",
     "rarity": 540,
     "minimum_height": 90,
-    "maximum_height": 144,
+    "maximum_height": 120,
     "density":100,
     "base_rocks": [
       "tfc:sedimentary"
@@ -192,7 +192,7 @@
     "shape": "cluster",
     "rarity": 480,
     "minimum_height": 90,
-    "maximum_height": 144,
+    "maximum_height": 120,
     "density":90,
     "base_rocks": [
       "tfc:sedimentary"
@@ -205,7 +205,7 @@
     "shape": "cluster",
     "rarity": 140,
     "minimum_height": 90,
-    "maximum_height": 144,
+    "maximum_height": 120,
     "density":90,
     "base_rocks": [
       "tfc:sedimentary"
@@ -218,7 +218,7 @@
     "shape": "cluster",
     "rarity": 420,
     "minimum_height": 90,
-    "maximum_height": 144,
+    "maximum_height": 120,
     "density":100,
     "base_rocks": [
       "tfc:sedimentary"
@@ -231,7 +231,7 @@
     "shape": "cluster",
     "rarity": 360,
     "minimum_height": 55,
-    "maximum_height": 144,
+    "maximum_height": 120,
     "density":100,
     "base_rocks": [
       "tfc:marble",
@@ -353,7 +353,7 @@
     "shape": "cluster",
     "rarity": 420,
     "minimum_height": 110,
-    "maximum_height": 144,
+    "maximum_height": 120,
     "density":100,
     "base_rocks": [
       "tfc:marble"
@@ -367,7 +367,7 @@
     "shape": "cluster",
     "rarity": 180,
     "minimum_height": 100,
-    "maximum_height": 160,
+    "maximum_height": 120,
     "density": 70,
     "base_rocks": [
       "tfc:igneous_extrusive"
@@ -381,7 +381,7 @@
     "shape": "cluster",
     "rarity": 180,
     "minimum_height": 100,
-    "maximum_height": 160,
+    "maximum_height": 120,
     "density": 70,
     "base_rocks": [
       "tfc:granite"
@@ -395,7 +395,7 @@
     "shape": "cluster",
     "rarity": 225,
     "minimum_height": 100,
-    "maximum_height": 160,
+    "maximum_height": 120,
     "density": 70,
     "base_rocks": [
       "tfc:igneous_extrusive",
@@ -410,7 +410,7 @@
     "shape": "cluster",
     "rarity": 180,
     "minimum_height": 100,
-    "maximum_height": 160,
+    "maximum_height": 120,
     "density": 70,
     "base_rocks": [
       "tfc:metamorphic"
@@ -424,7 +424,7 @@
     "shape": "cluster",
     "rarity": 180,
     "minimum_height": 100,
-    "maximum_height": 160,
+    "maximum_height": 120,
     "density": 70,
     "base_rocks": [
       "tfc:metamorphic"
