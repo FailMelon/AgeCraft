@@ -23,7 +23,8 @@ static stagedMods as string[][string] = {
 	],
 
 	stageFive.stage : [
-		"littletiles"
+		"littletiles",
+		"mxtune"
 	],
 	
 	stageSeven.stage : [
