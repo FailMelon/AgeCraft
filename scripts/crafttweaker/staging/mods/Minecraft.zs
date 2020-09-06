@@ -417,6 +417,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:silver_shulker_box>,
 		<minecraft:white_shulker_box>,
 		<minecraft:yellow_shulker_box>,
+		<minecraft:black_shulker_box>,
 
 		<minecraft:sponge>,
 		<minecraft:sponge:1>,
