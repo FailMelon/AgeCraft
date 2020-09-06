@@ -38,6 +38,8 @@ function LoadItemsStaging() {
 	scripts.crafttweaker.staging.mods.BetterWithMods.StageItems();
 	scripts.crafttweaker.staging.mods.WaterFlasks.StageItems();
 	scripts.crafttweaker.staging.mods.StorageDrawers.StageItems();
+
+	scripts.crafttweaker.staging.mods.ImmersiveEngineering.StageItems();
 }
 
 function LoadEvents() {
