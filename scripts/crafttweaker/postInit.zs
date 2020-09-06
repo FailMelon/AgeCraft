@@ -40,6 +40,7 @@ function LoadItemsStaging() {
 	scripts.crafttweaker.staging.mods.StorageDrawers.StageItems();
 
 	scripts.crafttweaker.staging.mods.ImmersiveEngineering.StageItems();
+	scripts.crafttweaker.staging.mods.ImmersiveAddons.StageItems();
 }
 
 function LoadEvents() {

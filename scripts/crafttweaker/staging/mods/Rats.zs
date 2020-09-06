@@ -239,9 +239,15 @@ static stagedItems as IIngredient[][string] = {
 		<rats:auto_curdler>,
 		<rats:block_of_cheese>,
 		<rats:rat_nugget>,
-		<rats:rat_nugget_ore>.withTag({OreItem: {id: "minecraft:gold_ore", Count: 1 as byte, Damage: 0 as short}, IngotItem: {ForgeCaps: {"tfc:item_forge": {heat: 0.0 as float, ticks: -1 as long, forge: {work: 0, steps: {last: -1, third: -1, second: -1}}}}, id: "minecraft:gold_nugget", Count: 1 as byte, Damage: 0 as short}}),
-		<rats:rat_nugget_ore:1>.withTag({OreItem: {id: "minecraft:iron_ore", Count: 1 as byte, Damage: 0 as short}, IngotItem: {id: "minecraft:iron_nugget", Count: 1 as byte, Damage: 0 as short}}),
-		<rats:rat_nugget_ore:2>.withTag({OreItem: {id: "minecraft:quartz_ore", Count: 1 as byte, Damage: 0 as short}, IngotItem: {id: "minecraft:quartz", Count: 1 as byte, Damage: 0 as short}}),
+		<rats:rat_nugget_ore>.withTag({OreItem: {id: "immersiveengineering:ore", Count: 1 as byte, Damage: 1 as short}, IngotItem: {id: "immersiveengineering:metal", Count: 1 as byte, Damage: 21 as short}}),
+		<rats:rat_nugget_ore:1>.withTag({OreItem: {id: "immersiveengineering:ore", Count: 1 as byte, Damage: 0 as short}, IngotItem: {ForgeCaps: {"tfc:item_forge": {heat: 0.0 as float, ticks: -1 as long, forge: {work: 0, steps: {last: -1, third: -1, second: -1}}}}, id: "immersiveengineering:metal", Count: 1 as byte, Damage: 20 as short}}),
+		<rats:rat_nugget_ore:2>.withTag({OreItem: {id: "minecraft:gold_ore", Count: 1 as byte, Damage: 0 as short}, IngotItem: {ForgeCaps: {"tfc:item_forge": {heat: 0.0 as float, ticks: -1 as long, forge: {work: 0, steps: {last: -1, third: -1, second: -1}}}}, id: "minecraft:gold_nugget", Count: 1 as byte, Damage: 0 as short}}),
+		<rats:rat_nugget_ore:3>.withTag({OreItem: {id: "minecraft:iron_ore", Count: 1 as byte, Damage: 0 as short}, IngotItem: {id: "minecraft:iron_nugget", Count: 1 as byte, Damage: 0 as short}}),
+		<rats:rat_nugget_ore:4>.withTag({OreItem: {id: "immersiveengineering:ore", Count: 1 as byte, Damage: 2 as short}, IngotItem: {ForgeCaps: {"tfc:item_forge": {heat: 0.0 as float, ticks: -1 as long, forge: {work: 0, steps: {last: -1, third: -1, second: -1}}}}, id: "immersiveengineering:metal", Count: 1 as byte, Damage: 22 as short}}),
+		<rats:rat_nugget_ore:5>.withTag({OreItem: {id: "minecraft:quartz_ore", Count: 1 as byte, Damage: 0 as short}, IngotItem: {id: "minecraft:quartz", Count: 1 as byte, Damage: 0 as short}}),
+		<rats:rat_nugget_ore:6>.withTag({OreItem: {id: "immersiveengineering:ore", Count: 1 as byte, Damage: 4 as short}, IngotItem: {ForgeCaps: {"tfc:item_forge": {heat: 0.0 as float, ticks: -1 as long, forge: {work: 0, steps: {last: -1, third: -1, second: -1}}}}, id: "immersiveengineering:metal", Count: 1 as byte, Damage: 24 as short}}),
+		<rats:rat_nugget_ore:7>.withTag({OreItem: {id: "immersiveengineering:ore", Count: 1 as byte, Damage: 3 as short}, IngotItem: {ForgeCaps: {"tfc:item_forge": {heat: 0.0 as float, ticks: -1 as long, forge: {work: 0, steps: {last: -1, third: -1, second: -1}}}}, id: "immersiveengineering:metal", Count: 1 as byte, Damage: 23 as short}}),
+		<rats:rat_nugget_ore:8>.withTag({OreItem: {id: "immersiveengineering:ore", Count: 1 as byte, Damage: 5 as short}, IngotItem: {id: "immersiveengineering:metal", Count: 1 as byte, Damage: 25 as short}}),
 	]
 };
 
