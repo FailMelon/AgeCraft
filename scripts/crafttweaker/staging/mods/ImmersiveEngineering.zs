@@ -80,7 +80,6 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:metal_decoration2:1>,
 		<immersiveengineering:metal_decoration2:2>,
 		<immersiveengineering:metal_decoration2:3>,
-		<immersiveengineering:metal_decoration2:4>,
 		<immersiveengineering:metal_decoration2:5>,
 		<immersiveengineering:metal_decoration2:7>,
 		<immersiveengineering:metal_decoration2:8>,
@@ -437,6 +436,8 @@ static stagedItems as IIngredient[][string] = {
 		<immersiveengineering:ore:3>,
 		<immersiveengineering:ore:4>,
 		<immersiveengineering:ore:5>,
+
+		<immersiveengineering:metal_decoration2:4>,
 	]
 };
 
