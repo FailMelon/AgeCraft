@@ -20,6 +20,28 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:placed_item>,
 		<tfc:charcoal_forge>,	
 
+		<tfc:raw/andesite>,
+		<tfc:raw/basalt>,
+		<tfc:raw/chalk>,
+		<tfc:raw/chert>,
+		<tfc:raw/claystone>,
+		<tfc:raw/conglomerate>,
+		<tfc:raw/dacite>,
+		<tfc:raw/diorite>,
+		<tfc:raw/dolomite>,
+		<tfc:raw/gabbro>,
+		<tfc:raw/gneiss>,
+		<tfc:raw/granite>,
+		<tfc:raw/limestone>,
+		<tfc:raw/marble>,
+		<tfc:raw/phyllite>,
+		<tfc:raw/quartzite>,
+		<tfc:raw/rhyolite>,
+		<tfc:raw/rocksalt>,
+		<tfc:raw/schist>,
+		<tfc:raw/shale>,
+		<tfc:raw/slate>,
+
 		<tfc:rock/andesite>,
 		<tfc:rock/basalt>,
 		<tfc:rock/chalk>,
@@ -194,6 +216,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:wood/log/willow>,
 		
 		<tfc:stick_bunch>,
+		<tfc:stick_bundle>,
 		
 		<tfc:straw>,
 		<tfc:thatch>,
@@ -229,21 +252,18 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:food/camelidae>,
 		<tfc:food/carrot>,
 		<tfc:food/cherry>,
-		<tfc:food/chevon>,
 		<tfc:food/chicken>,
+		<tfc:food/mongoose>,
 		<tfc:food/cloud_berry>,
 		<tfc:food/cooked_bear>,
 		<tfc:food/cooked_beef>,
+		<tfc:food/cooked_mongoose>,
 		<tfc:food/cooked_calamari>,
 		<tfc:food/cooked_camelidae>,
-		<tfc:food/cooked_chevon>,
 		<tfc:food/cooked_chicken>,
-		<tfc:food/cooked_duck>,
 		<tfc:food/cooked_egg>,
-		<tfc:food/cooked_fish>,
 		<tfc:food/cooked_gran_feline>,
 		<tfc:food/cooked_horse_meat>,
-		<tfc:food/cooked_hyena>,
 		<tfc:food/cooked_mutton>,
 		<tfc:food/cooked_pheasant>,
 		<tfc:food/cooked_pork>,
@@ -251,9 +271,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:food/cooked_venison>,
 		<tfc:food/cooked_wolf>,
 		<tfc:food/cranberry>,
-		<tfc:food/duck>,
 		<tfc:food/elderberry>,
-		<tfc:food/fish>,
 		<tfc:food/garlic>,
 		<tfc:food/gooseberry>,
 		<tfc:food/gran_feline>,
@@ -261,7 +279,6 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:food/green_bean>,
 		<tfc:food/green_bell_pepper>,
 		<tfc:food/horse_meat>,
-		<tfc:food/hyena>,
 		<tfc:food/lemon>,
 		<tfc:food/maize>,
 		<tfc:food/mutton>,
@@ -720,6 +737,7 @@ static stagedItems as IIngredient[][string] = {
 	],
 
 	stageThree.stage: [
+		<tfc:glass_shard>,
 
 		<tfc:hide/prepared/large>,
 		<tfc:hide/prepared/medium>,
@@ -786,6 +804,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/tin>,
 		<tfc:metal/sheet/tin>,
 
+		<tfc:metal/trapdoor/tin>,
 		<tfc:metal/lamp/tin>,
 		<tfc:metal/lamp/tin>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
 
@@ -872,6 +891,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/zinc>,
 		<tfc:metal/sheet/zinc>,
 		
+		<tfc:metal/trapdoor/zinc>,
 		<tfc:metal/lamp/zinc>,
 		<tfc:metal/lamp/zinc>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
 
@@ -908,9 +928,11 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/dust/bismuth>,	
 		<tfc:metal/scrap/bismuth>,
 		<tfc:metal/sheet/bismuth>,
-		
+
+		<tfc:metal/trapdoor/bismuth>,
 		<tfc:metal/lamp/bismuth>,
 		<tfc:metal/lamp/bismuth>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
+
 
 		<tfc:metal/double_ingot/copper>,
 		<tfc:metal/double_sheet/copper>,
@@ -924,9 +946,30 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/unfinished_greaves/copper>,
 		<tfc:metal/unfinished_helmet/copper>,
 		
+		<tfc:metal/trapdoor/copper>,
 		<tfc:metal/anvil/copper>,
 		<tfc:metal/lamp/copper>,
 		<tfc:metal/lamp/copper>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
+
+		<tfc:wood/pressure_plate/acacia>,
+		<tfc:wood/pressure_plate/ash>,
+		<tfc:wood/pressure_plate/aspen>,
+		<tfc:wood/pressure_plate/birch>,
+		<tfc:wood/pressure_plate/blackwood>,
+		<tfc:wood/pressure_plate/chestnut>,
+		<tfc:wood/pressure_plate/douglas_fir>,
+		<tfc:wood/pressure_plate/hickory>,
+		<tfc:wood/pressure_plate/kapok>,
+		<tfc:wood/pressure_plate/maple>,
+		<tfc:wood/pressure_plate/oak>,
+		<tfc:wood/pressure_plate/palm>,
+		<tfc:wood/pressure_plate/pine>,
+		<tfc:wood/pressure_plate/rosewood>,
+		<tfc:wood/pressure_plate/sequoia>,
+		<tfc:wood/pressure_plate/spruce>,
+		<tfc:wood/pressure_plate/sycamore>,
+		<tfc:wood/pressure_plate/white_cedar>,
+		<tfc:wood/pressure_plate/willow>,
 
 		<tfc:slab/wood/acacia>,
 		<tfc:slab/wood/ash>,
@@ -967,6 +1010,8 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:wood/planks/sycamore>,
 		<tfc:wood/planks/white_cedar>,
 		<tfc:wood/planks/willow>,
+
+		<tfc:wood_ash>,
 		
 		<tfc:wood/lumber/acacia>,
 		<tfc:wood/lumber/ash>,
@@ -1069,6 +1114,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:stairs/wood/willow>,
 
 		<tfc:wooden_bucket>,
+		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "creosote", Amount: 1000}}),
 		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}),
 		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "hot_water", Amount: 1000}}),
 		<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "salt_water", Amount: 1000}}),
@@ -1686,7 +1732,11 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:wall/smooth/shale>,
 		<tfc:wall/smooth/slate>,
 
+		<tfc:ceramics/unfired/crucible>,
 		<tfc:crucible>,
+
+		<tfc:ore/bituminous_coal>,
+		<tfc:ore/lignite>
 	],
 
 	stageFour.stage: [
@@ -1747,6 +1797,8 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/sheet/bismuth_bronze>,
 		<tfc:metal/tuyere/bismuth_bronze>,
 		
+		<tfc:metal/trapdoor/bismuth_bronze>,
+
 		<tfc:metal/anvil/bismuth_bronze>,
 		<tfc:metal/lamp/bismuth_bronze>,
 		<tfc:metal/lamp/bismuth_bronze>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
@@ -1798,6 +1850,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/sheet/black_bronze>,
 		<tfc:metal/tuyere/black_bronze>,
 		
+		<tfc:metal/trapdoor/black_bronze>,
 		<tfc:metal/anvil/black_bronze>,
 		<tfc:metal/lamp/black_bronze>,
 		<tfc:metal/lamp/black_bronze>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
@@ -1849,6 +1902,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/sheet/bronze>,
 		<tfc:metal/tuyere/bronze>,
 		
+		<tfc:metal/trapdoor/bronze>,
 		<tfc:metal/anvil/bronze>,
 		<tfc:metal/lamp/bronze>,
 		<tfc:metal/lamp/bronze>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
@@ -1860,7 +1914,9 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/dust/brass>,	
 		<tfc:metal/scrap/brass>,
 		<tfc:metal/sheet/brass>,
-		
+
+		<tfc:metal/trapdoor/brass>,
+
 		<tfc:metal/lamp/brass>,
 		<tfc:metal/lamp/brass>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
 
@@ -1898,6 +1954,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/sheet/gold>,
 		<tfc:metal/rod/gold>,
 		
+		<tfc:metal/trapdoor/gold>,
 		<tfc:metal/lamp/gold>,
 		<tfc:metal/lamp/gold>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),	
 		
@@ -1934,6 +1991,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/lead>,
 		<tfc:metal/sheet/lead>,
 		
+		<tfc:metal/trapdoor/lead>,
 		<tfc:metal/lamp/lead>,
 		<tfc:metal/lamp/lead>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),	
 		
@@ -1970,6 +2028,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/nickel>,
 		<tfc:metal/sheet/nickel>,
 		
+		<tfc:metal/trapdoor/nickel>,
 		<tfc:metal/lamp/nickel>,
 		<tfc:metal/lamp/nickel>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
 		
@@ -1981,6 +2040,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/rose_gold>,
 		<tfc:metal/sheet/rose_gold>,
 		
+		<tfc:metal/trapdoor/rose_gold>,
 		<tfc:metal/lamp/rose_gold>,
 		<tfc:metal/lamp/rose_gold>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),	
 		
@@ -2017,6 +2077,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/silver>,
 		<tfc:metal/sheet/silver>,
 		
+		<tfc:metal/trapdoor/silver>,
 		<tfc:metal/lamp/silver>,
 		<tfc:metal/lamp/silver>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
 		
@@ -2028,6 +2089,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/sterling_silver>,
 		<tfc:metal/sheet/sterling_silver>,
 		
+		<tfc:metal/trapdoor/sterling_silver>,
 		<tfc:metal/lamp/sterling_silver>,
 		<tfc:metal/lamp/sterling_silver>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
 				
@@ -2506,6 +2568,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/sheet/wrought_iron>,
 		<tfc:metal/tuyere/wrought_iron>,
 		
+		<tfc:metal/trapdoor/wrought_iron>,
 		<tfc:metal/anvil/wrought_iron>,
 		<tfc:metal/lamp/wrought_iron>,
 		<tfc:metal/lamp/wrought_iron>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
@@ -2554,6 +2617,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/scrap/platinum>,
 		<tfc:metal/sheet/platinum>,
 		
+		<tfc:metal/trapdoor/platinum>,
 		<tfc:metal/lamp/platinum>,
 		<tfc:metal/lamp/platinum>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
 
@@ -2607,6 +2671,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/ingot/weak_steel>,
 		<tfc:metal/ingot/high_carbon_steel>,
 		
+		<tfc:metal/trapdoor/steel>,
 		<tfc:metal/anvil/steel>,
 		<tfc:metal/lamp/steel>,
 		<tfc:metal/lamp/steel>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
@@ -2619,6 +2684,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/dust/pig_iron>,	
 		<tfc:metal/scrap/pig_iron>,
 		<tfc:metal/sheet/pig_iron>,
+		<tfc:metal/trapdoor/pig_iron>,
 		
 	],
 	
@@ -2672,6 +2738,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/sheet/black_steel>,
 		<tfc:metal/tuyere/black_steel>,
 		
+		<tfc:metal/trapdoor/black_steel>,
 		<tfc:metal/anvil/black_steel>,
 		<tfc:metal/lamp/black_steel>,
 		<tfc:metal/lamp/black_steel>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
@@ -2724,6 +2791,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/sheet/red_steel>,
 		<tfc:metal/tuyere/red_steel>,
 		
+		<tfc:metal/trapdoor/red_steel>,
 		<tfc:metal/anvil/red_steel>,
 		<tfc:metal/lamp/red_steel>,
 		<tfc:metal/lamp/red_steel>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
@@ -2777,6 +2845,7 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/sheet/blue_steel>,
 		<tfc:metal/tuyere/blue_steel>,
 		
+		<tfc:metal/trapdoor/blue_steel>,
 		<tfc:metal/anvil/blue_steel>,
 		<tfc:metal/lamp/blue_steel>,
 		<tfc:metal/lamp/blue_steel>.withTag({Fluid: {FluidName: "olive_oil", Amount: 250}}),
@@ -2792,7 +2861,10 @@ static stagedItems as IIngredient[][string] = {
 		<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: "water", Amount: 1000}}),
 		<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: "fresh_water", Amount: 1000}}),
 		<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: "salt_water", Amount: 1000}}),
-		<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: "hot_water", Amount: 1000}})
+		<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: "hot_water", Amount: 1000}}),
+
+		<tfc:food/cooked_fish>,
+		<tfc:food/fish>
 	]
 };
 
