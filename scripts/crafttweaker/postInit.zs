@@ -41,6 +41,8 @@ function LoadItemsStaging() {
 
 	scripts.crafttweaker.staging.mods.ImmersiveEngineering.StageItems();
 	scripts.crafttweaker.staging.mods.ImmersiveAddons.StageItems();
+
+	scripts.crafttweaker.staging.mods.Forge.StageItems();
 }
 
 function LoadEvents() {
