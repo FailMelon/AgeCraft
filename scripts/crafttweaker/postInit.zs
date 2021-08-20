@@ -43,6 +43,7 @@ function LoadItemsStaging() {
 	scripts.crafttweaker.staging.mods.ImmersiveAddons.StageItems();
 
 	scripts.crafttweaker.staging.mods.Forge.StageItems();
+	scripts.crafttweaker.staging.mods.Forestry.StageItems();
 }
 
 function LoadEvents() {
@@ -65,6 +66,8 @@ function LoadRecipes()
 	scripts.crafttweaker.recipes.mods.LittleTiles.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.TerraFirmaCraft.LoadRecipes();
 	scripts.crafttweaker.recipes.mods.ToolBelt.LoadRecipes();
+
+	scripts.crafttweaker.recipes.mods.Forestry.LoadRecipes();
 }
 
 function LoadIntegrations() {
