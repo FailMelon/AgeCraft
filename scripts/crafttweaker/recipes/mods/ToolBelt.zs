@@ -12,14 +12,14 @@ static shapedRecipes as IIngredient[][][][IItemStack] = {
 		[
 			[<tfc:animal/product/wool_yarn>, <minecraft:leather>, <tfc:animal/product/wool_yarn>],
 			[<minecraft:leather>, null, <minecraft:leather>],
-			[<minecraft:leather>, <tfc:metal/ingot/wrought_iron>, <minecraft:leather>]
+			[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]
 		]
 	],
 	<toolbelt:pouch> : [
 		[
 			[<tfc:animal/product/wool_yarn>, <minecraft:leather>, <tfc:animal/product/wool_yarn>],
 			[<minecraft:leather>, null, <minecraft:leather>],
-			[<tfc:animal/product/wool_yarn>, <tfc:metal/ingot/gold>, <tfc:animal/product/wool_yarn>]
+			[<tfc:animal/product/wool_yarn>, <minecraft:leather>, <tfc:animal/product/wool_yarn>]
 		]
 	],
 };
