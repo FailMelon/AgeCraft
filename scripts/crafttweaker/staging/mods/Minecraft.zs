@@ -1193,6 +1193,7 @@ static stagedItems as IIngredient[][string] = {
 		<minecraft:nether_wart_block>,
 		<minecraft:netherbrick>,
 		<minecraft:netherrack>,
+		<minecraft:bedrock>,
 	]
 };
 
